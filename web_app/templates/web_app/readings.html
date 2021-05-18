@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Readings
-</body>
-</html>
+{% extends 'web_app/base.html' %}
+{% block content %}
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Systol</th>
+    <th>Diastol</th>
+    <th>Weight</th>
+  </tr>
+  {% for i in readings %}
+  <tr>
+    <td>{{i.date}}</td>
+    <td>{{i.systol}}</td>
+    <td>{{i.diastol}}</td>
+    <td>{{i.weight}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock content %}

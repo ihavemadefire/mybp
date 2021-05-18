@@ -1,0 +1,159 @@
+
+
+.navbar {
+  position: absolute;
+  width: 70vw;
+  height: 7vw;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 4vw;
+
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: #000000;
+}
+
+.nav-link:hover {
+  opacity: .9;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.bottom-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  left: 0px;
+  top: 411px;
+  bottom: 0;
+
+  background: linear-gradient(180deg, rgba(249, 229, 53, 0) 0%, rgba(249, 229, 53, 0.57) 100%);
+}
+
+.top-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  left: 0px;
+  top: 0;
+  z-index: -2;
+
+  background: rgba(0, 115, 189, 0.75);
+  backdrop-filter: blur(4px);
+}
+
+.top-rectangle-vector {
+  /* Vector 1 */
+
+  position: absolute;
+  width: 1440.5px;
+  height: 253.22px;
+  left: -0.5px;
+  top: 158.28px;
+
+  background: linear-gradient(269.9deg, #CAE1F0 0.12%, rgba(0, 115, 189, 0.75) 26.04%, rgba(0, 115, 189, 0.75) 48.4%, rgba(0, 115, 189, 0.75) 70.25%);
+
+}
+
+.main-section {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 70vw;
+  height: 30vw;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 255px;
+  opacity: 100%;
+  background: #FFFFFF;
+  border: 5px solid #999999;
+  border-radius: 15px;
+  z-index: 1;
+
+}
+
+.index-header {
+  /* Track Your Health */
+margin-top: 2vw;
+margin-bottom: 2vw;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+color: #000000;
+
+}
+
+.index-para {
+  height: 156px;
+  margin: 0 2vw 0vw 2vw;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.horiz-bar {
+  /* Line 1 */
+
+width: 65vw;
+margin: 0vw 2.5vw .5vw 2.5vw; 
+border: 2px solid #999999;
+
+}
+
+
+.index-sub-header {
+  /* Track Your Health */
+margin-top: 1vw;
+margin-bottom: 1vw;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 77px;
+text-align: center;
+color: #000000;
+
+}
+
+.add-border {
+  border-right: 4px solid #999999;
+}
+
+.index-text {
+  margin: 1vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.index-link {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FFFFFF;
+  background-color: rgba(0, 115, 189, 0.75);
+  padding: .5vw 2vw .5vw 2vw;
+}
+
+.login-header {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #000000;
+}

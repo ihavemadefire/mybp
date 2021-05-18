@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  My first page
-</body>
-</html>
+{% extends 'web_app/base.html' %}
+{% block content %}
+  <h1 class="index-header text-center">Track Your Health</h1>
+  <p class="index-para text-center">MyMedStats is a simple, easy to use way for patients to record health information from anywhere, that their physician can see in real time. Stop recording your blood pressure and weight with pencil and paper and give your doctor instant access to your home recordings.</p>
+  <div class="horiz-bar"></div>
+  <div class="row">
+    <div class="col-md-6 add-border">
+      <h4 class="index-sub-header">Login</h4>
+      <p class="index-text">Already have an account?</p>
+      <p class="index-text"><a class="index-link" href="{% url 'login' %}">Log in Here</a></p>
+    </div>
+    <div class="col-md-6">
+      <h4 class="index-sub-header">Sign Up</h4>
+      <p class="index-text">New to MyBP?</p>
+      <p class="index-text"><a class="index-link" href="{% url 'register' %}">Get Registered today!</a></p>
+    </div>
+  </div>
+{% endblock content %}
